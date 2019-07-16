@@ -18,7 +18,7 @@ end
   Article.create(
     title: "Article#{idx+10}",
     body: "blah, blah, blah...",
-    released_at: 100.days.ago.advance(fays: idx),
+    released_at: 100.days.ago.advance(days: idx),
     expired_at: nil,
     member_only: false
   )

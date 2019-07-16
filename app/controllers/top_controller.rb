@@ -8,7 +8,7 @@ class TopController < ApplicationController
   end
 
   def bad_request
-    raise ActionController::ParamaterMissing, ""
+    raise ActionController::ParameterMissing, ""
   end
 
   def forbidden
